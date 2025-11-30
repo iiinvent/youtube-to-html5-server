@@ -8,5 +8,9 @@ HOST=localhost PORT=8000 node index.js
 
 Now set the global `YouTubeToHtml5()` javascript endpoint by placing the below above any library initiations.
 ```js
-YouTubeToHtml5.defaultOptions.endpoint = 'http://localhost:8000/?id=';
+//YouTubeToHtml5.defaultOptions.endpoint = 'http://localhost:8000/?id=';
+
+YouTubeToHtml5.defaultOptions.endpoint = 'http://31.56.232.117:3000/?id=ee5aEU4XEnc';
+
+
 ```
